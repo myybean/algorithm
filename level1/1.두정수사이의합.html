@@ -3,10 +3,24 @@
 <script>
     // 돌릴거 solution
     const solution = (el) => {
+        console.log(el);
     }
 
     // testcode
-    const test = () => {
+    const test = (var1) => {
+        solution(var1);
+    }
+
+    // testcode
+    const run = (try_count) => {
+        for (let i = try_count; i > 0; i--) {
+            console.log(`------------------ ${i} ------------------`);
+            test(i);
+        }
+    }
+
+    window.onload = function() {
+        run(5);
     }
 </script>
 </html>
