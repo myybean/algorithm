@@ -1,0 +1,22 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "study algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myybean/algorithm.git"
+  },
+  "author": "myybean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myybean/algorithm/issues"
+  },
+  "homepage": "https://github.com/myybean/algorithm#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
