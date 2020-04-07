@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "study algorithm",
   "main": "index.js",
-  "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myybean/algorithm.git"
@@ -16,7 +14,7 @@
     "url": "https://github.com/myybean/algorithm/issues"
   },
   "homepage": "https://github.com/myybean/algorithm#readme",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^7.1.1"
   }
 }
