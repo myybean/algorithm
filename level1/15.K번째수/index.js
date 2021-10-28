@@ -2,7 +2,8 @@ const solution = (array, commands) => {
     var answer = [];
 
     commands.forEach(command => {
-        answer.push(array.slice(command[0] - 1, command[1]).sort((a, b) => a > b)[command[2] - 1]);
+        const [from, to, index] = command;
+        answer.push(array.slice(from - 1, to).sort((a, b) => a - b)[index - 1]);
     });
 
     return answer;
